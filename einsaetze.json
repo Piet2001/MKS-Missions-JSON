@@ -16685,8 +16685,8 @@
         "chances": {},
         "additional": {
             "expansion_missions_ids": [
-                648,
-                649
+                647,
+                648
             ],
             "filter_id": "firehouse_missions"
         },
@@ -16718,7 +16718,7 @@
             "possible_patient": 4,
             "possible_patient_min": 2,
             "expansion_missions_ids": [
-                649
+                648
             ],
             "filter_id": "firehouse_missions",
             "patient_specializations": "Traumatologie"
