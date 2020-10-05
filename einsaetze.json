@@ -16920,5 +16920,57 @@
             "police_stations": 2,
             "fire_stations": 6
         }
+    },
+    {
+        "id": 655,
+        "name": "Koperdiefstal",
+        "place": "Rangeeremplacement",
+        "average_credits": 840,
+        "generated_by": "Politie, Opkomstbureau",
+        "icons": [
+            "/images/theft_gruen.png",
+            "/images/theft_gelb.png",
+            "/images/theft_rot.png"
+        ],
+        "requirements": {
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": [
+                656
+            ],
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 3
+        }
+    },
+    {
+        "id": 656,
+        "name": "Koperdiefstal",
+        "place": "Rangeeremplacement",
+        "average_credits": 2480,
+        "generated_by": "Politie, Hoofdbureau",
+        "icons": [
+            "/images/theft_gruen.png",
+            "/images/theft_gelb.png",
+            "/images/theft_rot.png"
+        ],
+        "requirements": {
+            "hondengeleider": 1,
+            "police_cars": 5,
+            "ovdp": 1
+        },
+        "chances": {
+            "ovdp": 10
+        },
+        "additional": {
+            "filter_id": "riot_police_missions"
+        },
+        "prerequisites": {
+            "police_stations": 6,
+            "bereitschaftspolizei": 1
+        }
     }
 ]
