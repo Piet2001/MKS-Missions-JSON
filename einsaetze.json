@@ -5347,9 +5347,9 @@
         "average_credits": 800,
         "generated_by": "Politie, Opkomstbureau",
         "icons": [
-            "/images/theft_gruen.png",
-            "/images/theft_gelb.png",
-            "/images/theft_rot.png"
+            "/images/cuffs_gruen.png",
+            "/images/cuffs_gelb.png",
+            "/images/cuffs_rot.png"
         ],
         "requirements": {
             "police_cars": 3,
@@ -5496,9 +5496,9 @@
         "average_credits": 750,
         "generated_by": "Politie, Opkomstbureau",
         "icons": [
-            "/images/baseball_gruen.png",
-            "/images/baseball_gelb.png",
-            "/images/baseball_rot.png"
+            "/images/cuffs_gruen.png",
+            "/images/cuffs_gelb.png",
+            "/images/cuffs_rot.png"
         ],
         "requirements": {
             "police_cars": 3
@@ -5519,9 +5519,9 @@
         "average_credits": 750,
         "generated_by": "Politie, Opkomstbureau",
         "icons": [
-            "/images/baseball_gruen.png",
-            "/images/baseball_gelb.png",
-            "/images/baseball_rot.png"
+            "/images/cuffs_gruen.png",
+            "/images/cuffs_gelb.png",
+            "/images/cuffs_rot.png"
         ],
         "requirements": {
             "police_cars": 3
@@ -6414,9 +6414,9 @@
         "average_credits": 430,
         "generated_by": "Politie, Opkomstbureau",
         "icons": [
-            "/images/baseball_gruen.png",
-            "/images/baseball_gelb.png",
-            "/images/baseball_rot.png"
+            "/images/cuffs_gruen.png",
+            "/images/cuffs_gelb.png",
+            "/images/cuffs_rot.png"
         ],
         "requirements": {
             "police_cars": 1
@@ -6916,9 +6916,9 @@
         "average_credits": 750,
         "generated_by": "Politie, Opkomstbureau",
         "icons": [
-            "/images/theft_gruen.png",
-            "/images/theft_gelb.png",
-            "/images/theft_rot.png"
+            "/images/cuffs_gruen.png",
+            "/images/cuffs_gelb.png",
+            "/images/cuffs_rot.png"
         ],
         "requirements": {
             "police_cars": 2
@@ -9557,9 +9557,9 @@
         "average_credits": 550,
         "generated_by": "Politie, Opkomstbureau",
         "icons": [
-            "/images/baseball_gruen.png",
-            "/images/baseball_gelb.png",
-            "/images/baseball_rot.png"
+            "/images/cuffs_gruen.png",
+            "/images/cuffs_gelb.png",
+            "/images/cuffs_rot.png"
         ],
         "requirements": {
             "police_cars": 1
@@ -15112,9 +15112,9 @@
         "average_credits": 300,
         "generated_by": "Politie, Opkomstbureau",
         "icons": [
-            "/images/baseball_gruen.png",
-            "/images/baseball_gelb.png",
-            "/images/baseball_rot.png"
+            "/images/cuffs_gruen.png",
+            "/images/cuffs_gelb.png",
+            "/images/cuffs_rot.png"
         ],
         "requirements": {
             "police_cars": 1
@@ -15135,9 +15135,9 @@
         "average_credits": 500,
         "generated_by": "Politie, Opkomstbureau",
         "icons": [
-            "/images/baseball_gruen.png",
-            "/images/baseball_gelb.png",
-            "/images/baseball_rot.png"
+            "/images/cuffs_gruen.png",
+            "/images/cuffs_gelb.png",
+            "/images/cuffs_rot.png"
         ],
         "requirements": {
             "police_cars": 2
@@ -17628,9 +17628,9 @@
         "average_credits": 945,
         "generated_by": "Politie, Opkomstbureau",
         "icons": [
-            "/images/theft_gruen.png",
-            "/images/theft_gelb.png",
-            "/images/theft_rot.png"
+            "/images/cuffs_gruen.png",
+            "/images/cuffs_gelb.png",
+            "/images/cuffs_rot.png"
         ],
         "requirements": {
             "police_cars": 2,
@@ -17652,9 +17652,9 @@
         "average_credits": 2415,
         "generated_by": "Politie, Hoofdbureau",
         "icons": [
-            "/images/theft_gruen.png",
-            "/images/theft_gelb.png",
-            "/images/theft_rot.png"
+            "/images/cuffs_gruen.png",
+            "/images/cuffs_gelb.png",
+            "/images/cuffs_rot.png"
         ],
         "requirements": {
             "hondengeleider": 1,
@@ -17682,9 +17682,9 @@
         "average_credits": 1055,
         "generated_by": "Politie, Opkomstbureau",
         "icons": [
-            "/images/theft_gruen.png",
-            "/images/theft_gelb.png",
-            "/images/theft_rot.png"
+            "/images/cuffs_gruen.png",
+            "/images/cuffs_gelb.png",
+            "/images/cuffs_rot.png"
         ],
         "requirements": {
             "police_cars": 2,
