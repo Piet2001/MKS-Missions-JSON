@@ -17780,6 +17780,33 @@
         }
     },
     {
+        "id": 668,
+        "name": "Beroving met geweld",
+        "place": null,
+        "average_credits": 500,
+        "generated_by": "Politie, Opkomstbureau",
+        "icons": [
+            "/images/theft_gruen.png",
+            "/images/theft_gelb.png",
+            "/images/theft_rot.png"
+        ],
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {
+            "patient_transport": 20
+        },
+        "additional": {
+            "possible_patient": 1,
+            "filter_id": "police_station_missions",
+            "patient_specializations": "Algemene Heelkunde"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 1
+        }
+    },
+    {
         "id": 669,
         "name": "Toezicht Park",
         "place": "Park",
@@ -17931,6 +17958,36 @@
         },
         "prerequisites": {
             "police_stations": 6
+        }
+    },
+    {
+        "id": 675,
+        "name": "Beroving met geweld",
+        "place": null,
+        "average_credits": 1170,
+        "generated_by": "Politie, Opkomstbureau",
+        "icons": [
+            "/images/theft_gruen.png",
+            "/images/theft_gelb.png",
+            "/images/theft_rot.png"
+        ],
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {
+            "nef": 10,
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions",
+            "patient_specializations": "Algemene Heelkunde"
+        },
+        "prerequisites": {
+            "rescue_stations": 10,
+            "police_stations": 2
         }
     }
 ]
