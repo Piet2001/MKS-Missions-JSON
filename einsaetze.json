@@ -3018,7 +3018,8 @@
         },
         "chances": {},
         "additional": {
-            "duration": "2 uur",
+            "duration_text": "2 uur",
+            "duration": 7200,
             "guard_mission": true,
             "filter_id": "riot_police_missions"
         },
@@ -3046,7 +3047,8 @@
         },
         "chances": {},
         "additional": {
-            "duration": "2 uur",
+            "duration_text": "2 uur",
+            "duration": 7200,
             "guard_mission": true,
             "filter_id": "riot_police_missions"
         },
@@ -3073,7 +3075,8 @@
         },
         "chances": {},
         "additional": {
-            "duration": "4 uur",
+            "duration_text": "4 uur",
+            "duration": 14400,
             "guard_mission": true,
             "filter_id": "firehouse_missions"
         },
@@ -3098,7 +3101,8 @@
         },
         "chances": {},
         "additional": {
-            "duration": "1 uur",
+            "duration_text": "een uur",
+            "duration": 3600,
             "guard_mission": true,
             "filter_id": "police_station_missions"
         },
@@ -3123,7 +3127,8 @@
         },
         "chances": {},
         "additional": {
-            "duration": "2 uur",
+            "duration_text": "2 uur",
+            "duration": 7200,
             "guard_mission": true,
             "filter_id": "ambulance_station_missions",
             "allow_ktw_instead_of_rtw": true
@@ -3149,7 +3154,8 @@
         },
         "chances": {},
         "additional": {
-            "duration": "15 minuten",
+            "duration_text": "15 minuten",
+            "duration": 900,
             "average_min_fire_personnel": 1,
             "guard_mission": true,
             "filter_id": "firehouse_missions"
@@ -5535,7 +5541,8 @@
         },
         "chances": {},
         "additional": {
-            "duration": "2 uur",
+            "duration_text": "2 uur",
+            "duration": 7200,
             "guard_mission": true,
             "filter_id": "firehouse_missions"
         },
@@ -5563,7 +5570,8 @@
         },
         "chances": {},
         "additional": {
-            "duration": "2 uur",
+            "duration_text": "2 uur",
+            "duration": 7200,
             "guard_mission": true,
             "filter_id": "firehouse_missions",
             "allow_ktw_instead_of_rtw": true
@@ -6233,7 +6241,8 @@
         },
         "chances": {},
         "additional": {
-            "duration": "1 uur",
+            "duration_text": "een uur",
+            "duration": 3600,
             "guard_mission": true,
             "filter_id": "riot_police_missions"
         },
@@ -15619,7 +15628,8 @@
         },
         "chances": {},
         "additional": {
-            "duration": "2 uur",
+            "duration_text": "2 uur",
+            "duration": 7200,
             "guard_mission": true,
             "filter_id": "riot_police_missions"
         },
@@ -15649,7 +15659,8 @@
         },
         "chances": {},
         "additional": {
-            "duration": "3 uur",
+            "duration_text": "3 uur",
+            "duration": 10800,
             "guard_mission": true,
             "filter_id": "riot_police_missions"
         },
@@ -17627,7 +17638,8 @@
         },
         "chances": {},
         "additional": {
-            "duration": "1 uur",
+            "duration_text": "een uur",
+            "duration": 3600,
             "guard_mission": true,
             "filter_id": "police_station_missions"
         },
@@ -17651,7 +17663,8 @@
         },
         "chances": {},
         "additional": {
-            "duration": "2 uur",
+            "duration_text": "2 uur",
+            "duration": 7200,
             "guard_mission": true,
             "filter_id": "police_station_missions"
         },
@@ -17822,7 +17835,8 @@
         },
         "chances": {},
         "additional": {
-            "duration": "1 uur",
+            "duration_text": "een uur",
+            "duration": 3600,
             "guard_mission": true,
             "filter_id": "police_station_missions"
         },
@@ -17846,7 +17860,8 @@
         },
         "chances": {},
         "additional": {
-            "duration": "1 uur",
+            "duration_text": "een uur",
+            "duration": 3600,
             "guard_mission": true,
             "filter_id": "police_station_missions"
         },
@@ -17872,7 +17887,8 @@
         },
         "chances": {},
         "additional": {
-            "duration": "2 uur",
+            "duration_text": "2 uur",
+            "duration": 7200,
             "guard_mission": true,
             "filter_id": "riot_police_missions",
             "need_bike_police_only_if_present": true
