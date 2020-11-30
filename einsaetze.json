@@ -18055,5 +18055,29 @@
         "prerequisites": {
             "rescue_stations": 1
         }
+    },
+    {
+        "id": 678,
+        "name": "Dienstverlening SEH ziekenhuis",
+        "place": "Ziekenhuis",
+        "average_credits": 910,
+        "generated_by": "Brandweer, Kazerne",
+        "icons": [
+            "/images/fire_gruen.png",
+            "/images/fire_gelb.png",
+            "/images/fire_rot.png"
+        ],
+        "requirements": {
+            "firetrucks": 1,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {},
+        "additional": {
+            "allow_rw_instead_of_lf": true,
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 4
+        }
     }
 ]
