@@ -6737,6 +6737,35 @@
         }
     },
     {
+        "id": 253,
+        "name": "Grote boek van Sinterklaas aangespoeld",
+        "place": "Meer",
+        "average_credits": 1000,
+        "generated_by": "",
+        "icons": [
+            "/images/river_gruen.png",
+            "/images/river_gelb.png",
+            "/images/river_rot.png"
+        ],
+        "requirements": {
+            "firetrucks": 1,
+            "police_cars": 1,
+            "diver_units": 1,
+            "boats": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "water_watch_missions",
+            "date_start": "za 14 nov 2020 10:00:00 CET",
+            "date_end": "zo 06 dec 2020 23:59:00 CET"
+        },
+        "prerequisites": {
+            "wasserrettung": 1,
+            "police_stations": 1,
+            "fire_stations": 12
+        }
+    },
+    {
         "id": 254,
         "name": "Brandende goederenwagon",
         "place": "Rangeeremplacement",
