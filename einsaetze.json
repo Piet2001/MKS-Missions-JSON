@@ -18542,5 +18542,50 @@
         "prerequisites": {
             "fire_stations": 4
         }
+    },
+    {
+        "id": 679,
+        "name": "Heling",
+        "place": null,
+        "average_credits": 500,
+        "generated_by": "Politie, Opkomstbureau",
+        "icons": [
+            "/images/theft_gruen.png",
+            "/images/theft_gelb.png",
+            "/images/theft_rot.png"
+        ],
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    {
+        "id": 680,
+        "name": "Heling",
+        "place": null,
+        "average_credits": 670,
+        "generated_by": "Politie, Opkomstbureau",
+        "icons": [
+            "/images/theft_gruen.png",
+            "/images/theft_gelb.png",
+            "/images/theft_rot.png"
+        ],
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 2,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        }
     }
 ]
