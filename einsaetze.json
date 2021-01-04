@@ -19334,6 +19334,66 @@
         }
     },
     {
+        "id": 686,
+        "name": "Brand zonnepanelen",
+        "place": null,
+        "average_credits": 840,
+        "generated_by": "Brandweer, Kazerne",
+        "icons": [
+            "/images/fire_gruen.png",
+            "/images/fire_gelb.png",
+            "/images/fire_rot.png"
+        ],
+        "requirements": {
+            "firetrucks": 1,
+            "platform_trucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": [
+                687
+            ],
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 3
+        }
+    },
+    {
+        "id": 687,
+        "name": "Brand zonnepanelen",
+        "place": null,
+        "average_credits": 2030,
+        "generated_by": "Brandweer, Kazerne",
+        "icons": [
+            "/images/fire_gruen.png",
+            "/images/fire_gelb.png",
+            "/images/fire_rot.png"
+        ],
+        "requirements": {
+            "firetrucks": 2,
+            "spokesman": 1,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "police_cars": 2
+        },
+        "chances": {
+            "spokesman": 20,
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 2,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Algemene Heelkunde"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 2,
+            "fire_stations": 14
+        }
+    },
+    {
         "id": 688,
         "name": "Illegaal afsteken van vuurwerk",
         "place": null,
