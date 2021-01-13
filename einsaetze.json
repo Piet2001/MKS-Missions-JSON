@@ -331,7 +331,7 @@
         "id": 14,
         "name": "Heidebrand",
         "place": "Bos",
-        "average_credits": 1000,
+        "average_credits": 1600,
         "generated_by": "Brandweer, Kazerne",
         "icons": [
             "/images/fire_gruen.png",
@@ -339,18 +339,16 @@
             "/images/fire_rot.png"
         ],
         "requirements": {
-            "firetrucks": 2,
-            "battalion_chief_vehicles": 1,
-            "water_tankers": 1
+            "water_needed": 23000,
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1
         },
-        "chances": {
-            "water_tankers": 20
-        },
+        "chances": {},
         "additional": {
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
-            "fire_stations": 6
+            "fire_stations": 7
         }
     },
     {
@@ -3265,7 +3263,7 @@
         "id": 127,
         "name": "Brand in landbouwschuur",
         "place": "Boerderij",
-        "average_credits": 2100,
+        "average_credits": 2980,
         "generated_by": "Brandweer, Kazerne",
         "icons": [
             "/images/fire_gruen.png",
@@ -3273,21 +3271,20 @@
             "/images/fire_rot.png"
         ],
         "requirements": {
-            "firetrucks": 3,
+            "water_needed": 27000,
+            "firetrucks": 1,
             "battalion_chief_vehicles": 1,
             "mobile_command_vehicles": 1,
-            "platform_trucks": 1,
-            "water_tankers": 1
+            "platform_trucks": 1
         },
         "chances": {
-            "mobile_command_vehicles": 50,
-            "water_tankers": 60
+            "mobile_command_vehicles": 50
         },
         "additional": {
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
-            "fire_stations": 6
+            "fire_stations": 13
         }
     },
     {
@@ -3319,7 +3316,7 @@
         "id": 129,
         "name": "Heidebrand",
         "place": "Bos",
-        "average_credits": 1950,
+        "average_credits": 1770,
         "generated_by": "Brandweer, Kazerne",
         "icons": [
             "/images/fire_gruen.png",
@@ -3327,16 +3324,16 @@
             "/images/fire_rot.png"
         ],
         "requirements": {
-            "firetrucks": 3,
-            "battalion_chief_vehicles": 1,
-            "water_tankers": 1
+            "water_needed": 27000,
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1
         },
         "chances": {},
         "additional": {
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
-            "fire_stations": 8
+            "fire_stations": 7
         }
     },
     {
@@ -3585,8 +3582,8 @@
     {
         "id": 140,
         "name": "Natuurbrand",
-        "place": null,
-        "average_credits": 400,
+        "place": "Bos",
+        "average_credits": 1600,
         "generated_by": "Brandweer, Kazerne",
         "icons": [
             "/images/fire_gruen.png",
@@ -3594,25 +3591,23 @@
             "/images/fire_rot.png"
         ],
         "requirements": {
-            "firetrucks": 2,
-            "battalion_chief_vehicles": 1,
-            "water_tankers": 1
+            "water_needed": 23000,
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1
         },
-        "chances": {
-            "water_tankers": 40
-        },
+        "chances": {},
         "additional": {
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
-            "fire_stations": 4
+            "fire_stations": 7
         }
     },
     {
         "id": 141,
         "name": "Natuurbrand",
         "place": "Bos",
-        "average_credits": 1000,
+        "average_credits": 2640,
         "generated_by": "Brandweer, Kazerne",
         "icons": [
             "/images/fire_gruen.png",
@@ -3620,10 +3615,10 @@
             "/images/fire_rot.png"
         ],
         "requirements": {
-            "firetrucks": 3,
+            "water_needed": 27000,
+            "firetrucks": 1,
             "battalion_chief_vehicles": 1,
-            "mobile_command_vehicles": 1,
-            "water_tankers": 1
+            "mobile_command_vehicles": 1
         },
         "chances": {
             "mobile_command_vehicles": 50
@@ -3632,14 +3627,14 @@
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
-            "fire_stations": 8
+            "fire_stations": 13
         }
     },
     {
         "id": 142,
         "name": "Natuurbrand",
         "place": "Bos",
-        "average_credits": 1750,
+        "average_credits": 3810,
         "generated_by": "Brandweer, Kazerne",
         "icons": [
             "/images/fire_gruen.png",
@@ -3647,11 +3642,11 @@
             "/images/fire_rot.png"
         ],
         "requirements": {
-            "firetrucks": 4,
+            "water_needed": 46000,
+            "firetrucks": 1,
             "battalion_chief_vehicles": 1,
             "mobile_command_vehicles": 1,
-            "heavy_rescue_vehicles": 1,
-            "water_tankers": 2
+            "heavy_rescue_vehicles": 1
         },
         "chances": {
             "heavy_rescue_vehicles": 50
@@ -3660,14 +3655,14 @@
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
-            "fire_stations": 10
+            "fire_stations": 13
         }
     },
     {
         "id": 143,
         "name": "Natuurbrand",
         "place": "Bos",
-        "average_credits": 4000,
+        "average_credits": 6170,
         "generated_by": "Brandweer, Kazerne",
         "icons": [
             "/images/fire_gruen.png",
@@ -3675,30 +3670,31 @@
             "/images/fire_rot.png"
         ],
         "requirements": {
-            "firetrucks": 8,
+            "water_needed": 62000,
+            "firetrucks": 1,
             "battalion_chief_vehicles": 2,
             "mobile_command_vehicles": 1,
             "elw3": 1,
             "heavy_rescue_vehicles": 1,
-            "water_tankers": 2,
             "mobile_air_vehicles": 1
         },
         "chances": {
             "elw3": 50,
+            "heavy_rescue_vehicles": 50,
             "mobile_air_vehicles": 20
         },
         "additional": {
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
-            "fire_stations": 12
+            "fire_stations": 18
         }
     },
     {
         "id": 144,
         "name": "Natuurbrand",
         "place": "Bos",
-        "average_credits": 8000,
+        "average_credits": 9060,
         "generated_by": "Brandweer, Kazerne",
         "icons": [
             "/images/fire_gruen.png",
@@ -3706,45 +3702,45 @@
             "/images/fire_rot.png"
         ],
         "requirements": {
-            "firetrucks": 12,
-            "spokesman": 1,
+            "water_needed": 93000,
+            "firetrucks": 1,
             "battalion_chief_vehicles": 3,
             "mobile_command_vehicles": 2,
             "elw3": 1,
             "heavy_rescue_vehicles": 2,
-            "water_tankers": 3,
             "mobile_air_vehicles": 1
         },
         "chances": {
+            "heavy_rescue_vehicles": 50,
             "mobile_air_vehicles": 50
         },
         "additional": {
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
-            "fire_stations": 14
+            "fire_stations": 27
         }
     },
     {
         "id": 145,
         "name": "Natuurbrand",
         "place": null,
-        "average_credits": 22500,
+        "average_credits": 25590,
         "generated_by": "Brandweer, Kazerne",
         "icons": [
-            "/images/blast_gruen.png",
-            "/images/blast_gelb.png",
-            "/images/blast_rot.png"
+            "/images/fire_gruen.png",
+            "/images/fire_gelb.png",
+            "/images/fire_rot.png"
         ],
         "requirements": {
-            "firetrucks": 40,
+            "water_needed": 310000,
+            "firetrucks": 1,
             "battalion_chief_vehicles": 10,
             "mobile_command_vehicles": 4,
             "elw3": 2,
             "heavy_rescue_vehicles": 4,
-            "water_tankers": 10,
-            "mobile_air_vehicles": 1,
-            "police_cars": 2
+            "mobile_air_vehicles": 2,
+            "police_cars": 8
         },
         "chances": {},
         "additional": {
@@ -5682,7 +5678,7 @@
         "id": 214,
         "name": "Bosbrand",
         "place": "Bos",
-        "average_credits": 750,
+        "average_credits": 1260,
         "generated_by": "Brandweer, Kazerne",
         "icons": [
             "/images/fire_gruen.png",
@@ -5690,25 +5686,22 @@
             "/images/fire_rot.png"
         ],
         "requirements": {
-            "firetrucks": 2,
-            "battalion_chief_vehicles": 1,
-            "water_tankers": 1
+            "water_needed": 23000,
+            "firetrucks": 1
         },
-        "chances": {
-            "water_tankers": 40
-        },
+        "chances": {},
         "additional": {
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
-            "fire_stations": 2
+            "fire_stations": 7
         }
     },
     {
         "id": 215,
         "name": "Bosbrand",
         "place": "Bos",
-        "average_credits": 800,
+        "average_credits": 2640,
         "generated_by": "Brandweer, Kazerne",
         "icons": [
             "/images/fire_gruen.png",
@@ -5716,10 +5709,10 @@
             "/images/fire_rot.png"
         ],
         "requirements": {
-            "firetrucks": 3,
+            "water_needed": 27000,
+            "firetrucks": 1,
             "battalion_chief_vehicles": 1,
-            "mobile_command_vehicles": 1,
-            "water_tankers": 1
+            "mobile_command_vehicles": 1
         },
         "chances": {
             "mobile_command_vehicles": 50
@@ -5728,14 +5721,14 @@
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
-            "fire_stations": 6
+            "fire_stations": 13
         }
     },
     {
         "id": 216,
         "name": "Bosbrand",
         "place": "Bos",
-        "average_credits": 999,
+        "average_credits": 3750,
         "generated_by": "Brandweer, Kazerne",
         "icons": [
             "/images/fire_gruen.png",
@@ -5743,20 +5736,21 @@
             "/images/fire_rot.png"
         ],
         "requirements": {
-            "firetrucks": 4,
+            "water_needed": 31000,
+            "firetrucks": 1,
             "battalion_chief_vehicles": 1,
             "mobile_command_vehicles": 1,
-            "elw3": 1,
-            "water_tankers": 1
+            "elw3": 1
         },
         "chances": {
+            "mobile_command_vehicles": 50,
             "elw3": 10
         },
         "additional": {
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
-            "fire_stations": 12
+            "fire_stations": 14
         }
     },
     {
@@ -8327,7 +8321,7 @@
         "id": 308,
         "name": "Natuurbrand",
         "place": "Bos",
-        "average_credits": 11500,
+        "average_credits": 11590,
         "generated_by": "Brandweer, Kazerne",
         "icons": [
             "/images/fire_gruen.png",
@@ -8335,12 +8329,12 @@
             "/images/fire_rot.png"
         ],
         "requirements": {
-            "firetrucks": 16,
+            "water_needed": 124000,
+            "firetrucks": 1,
             "battalion_chief_vehicles": 4,
             "mobile_command_vehicles": 2,
             "elw3": 1,
             "heavy_rescue_vehicles": 3,
-            "water_tankers": 4,
             "mobile_air_vehicles": 1,
             "police_cars": 3
         },
@@ -8352,14 +8346,14 @@
         },
         "prerequisites": {
             "police_stations": 3,
-            "fire_stations": 20
+            "fire_stations": 34
         }
     },
     {
         "id": 309,
         "name": "Natuurbrand",
         "place": "Bos",
-        "average_credits": 18750,
+        "average_credits": 17370,
         "generated_by": "Brandweer, Kazerne",
         "icons": [
             "/images/fire_gruen.png",
@@ -8367,12 +8361,12 @@
             "/images/fire_rot.png"
         ],
         "requirements": {
-            "firetrucks": 24,
+            "water_needed": 186000,
+            "firetrucks": 1,
             "battalion_chief_vehicles": 6,
             "mobile_command_vehicles": 3,
             "elw3": 2,
             "heavy_rescue_vehicles": 4,
-            "water_tankers": 6,
             "mobile_air_vehicles": 1,
             "police_cars": 5
         },
@@ -8381,8 +8375,8 @@
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
-            "police_stations": 6,
-            "fire_stations": 30
+            "police_stations": 4,
+            "fire_stations": 50
         }
     },
     {
@@ -8866,7 +8860,7 @@
         "id": 326,
         "name": "Brand in landbouwschuur",
         "place": "Boerderij",
-        "average_credits": 3650,
+        "average_credits": 5400,
         "generated_by": "Brandweer, Kazerne",
         "icons": [
             "/images/fire_gruen.png",
@@ -8874,12 +8868,12 @@
             "/images/fire_rot.png"
         ],
         "requirements": {
-            "firetrucks": 4,
+            "water_needed": 31000,
+            "firetrucks": 1,
             "battalion_chief_vehicles": 1,
             "mobile_command_vehicles": 1,
             "platform_trucks": 1,
             "heavy_rescue_vehicles": 1,
-            "water_tankers": 1,
             "mobile_air_vehicles": 1,
             "gwmess": 1,
             "hazmat_vehicles": 1,
@@ -8897,14 +8891,14 @@
         },
         "prerequisites": {
             "police_stations": 1,
-            "fire_stations": 12
+            "fire_stations": 13
         }
     },
     {
         "id": 327,
         "name": "Brand in landbouwschuur",
         "place": "Boerderij",
-        "average_credits": 7000,
+        "average_credits": 8460,
         "generated_by": "Brandweer, Kazerne",
         "icons": [
             "/images/fire_gruen.png",
@@ -8912,13 +8906,13 @@
             "/images/fire_rot.png"
         ],
         "requirements": {
-            "firetrucks": 8,
+            "water_needed": 62000,
+            "firetrucks": 1,
             "battalion_chief_vehicles": 2,
             "mobile_command_vehicles": 1,
             "elw3": 1,
             "platform_trucks": 2,
             "heavy_rescue_vehicles": 1,
-            "water_tankers": 2,
             "mobile_air_vehicles": 1,
             "gwmess": 1,
             "hazmat_vehicles": 1,
@@ -8926,6 +8920,7 @@
         },
         "chances": {
             "elw3": 50,
+            "heavy_rescue_vehicles": 50,
             "gwmess": 50,
             "hazmat_vehicles": 50
         },
@@ -8934,7 +8929,7 @@
         },
         "prerequisites": {
             "police_stations": 2,
-            "fire_stations": 16
+            "fire_stations": 21
         }
     },
     {
@@ -9765,7 +9760,7 @@
         "id": 355,
         "name": "Heidebrand",
         "place": "Bos",
-        "average_credits": 3000,
+        "average_credits": 3810,
         "generated_by": "Brandweer, Kazerne",
         "icons": [
             "/images/fire_gruen.png",
@@ -9773,11 +9768,11 @@
             "/images/fire_rot.png"
         ],
         "requirements": {
-            "firetrucks": 4,
+            "water_needed": 46000,
+            "firetrucks": 1,
             "battalion_chief_vehicles": 1,
             "mobile_command_vehicles": 1,
-            "heavy_rescue_vehicles": 1,
-            "water_tankers": 2
+            "heavy_rescue_vehicles": 1
         },
         "chances": {
             "mobile_command_vehicles": 50,
@@ -9787,14 +9782,14 @@
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
-            "fire_stations": 14
+            "fire_stations": 13
         }
     },
     {
         "id": 356,
         "name": "Heidebrand",
         "place": "Bos",
-        "average_credits": 7200,
+        "average_credits": 7350,
         "generated_by": "Brandweer, Kazerne",
         "icons": [
             "/images/fire_gruen.png",
@@ -9802,12 +9797,12 @@
             "/images/fire_rot.png"
         ],
         "requirements": {
-            "firetrucks": 8,
+            "water_needed": 92000,
+            "firetrucks": 1,
             "battalion_chief_vehicles": 2,
             "mobile_command_vehicles": 1,
             "elw3": 1,
             "heavy_rescue_vehicles": 1,
-            "water_tankers": 4,
             "mobile_air_vehicles": 1
         },
         "chances": {
@@ -9820,14 +9815,14 @@
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
-            "fire_stations": 16
+            "fire_stations": 21
         }
     },
     {
         "id": 357,
         "name": "Natuurbrand",
         "place": "Bos",
-        "average_credits": 22500,
+        "average_credits": 22680,
         "generated_by": "Brandweer, Kazerne",
         "icons": [
             "/images/fire_gruen.png",
@@ -9835,12 +9830,12 @@
             "/images/fire_rot.png"
         ],
         "requirements": {
-            "firetrucks": 32,
+            "water_needed": 278000,
+            "firetrucks": 1,
             "battalion_chief_vehicles": 8,
             "mobile_command_vehicles": 3,
             "elw3": 2,
             "heavy_rescue_vehicles": 4,
-            "water_tankers": 10,
             "mobile_air_vehicles": 2,
             "police_cars": 8
         },
@@ -9849,8 +9844,8 @@
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
-            "police_stations": 8,
-            "fire_stations": 65
+            "police_stations": 7,
+            "fire_stations": 68
         }
     },
     {
@@ -16601,7 +16596,7 @@
         "id": 591,
         "name": "Uitslaande brand in veestal",
         "place": "Boerderij",
-        "average_credits": 9450,
+        "average_credits": 10630,
         "generated_by": "Brandweer, Kazerne",
         "icons": [
             "/images/fire_gruen.png",
@@ -16609,13 +16604,13 @@
             "/images/fire_rot.png"
         ],
         "requirements": {
-            "firetrucks": 7,
+            "water_needed": 43000,
+            "firetrucks": 1,
             "spokesman": 1,
             "battalion_chief_vehicles": 1,
             "mobile_command_vehicles": 1,
             "elw3": 1,
             "platform_trucks": 1,
-            "water_tankers": 1,
             "mobile_air_vehicles": 1,
             "gwmess": 4,
             "hazmat_vehicles": 1,
@@ -16634,14 +16629,14 @@
         "prerequisites": {
             "rescue_stations": 3,
             "police_stations": 5,
-            "fire_stations": 18
+            "fire_stations": 19
         }
     },
     {
         "id": 592,
-        "name": "Brand op bedrijventerein",
+        "name": "Brand op bedrijventerrein",
         "place": "Bedrijventerrein",
-        "average_credits": 11060,
+        "average_credits": 12240,
         "generated_by": "Brandweer, Kazerne",
         "icons": [
             "/images/fire_gruen.png",
@@ -16649,13 +16644,13 @@
             "/images/fire_rot.png"
         ],
         "requirements": {
-            "firetrucks": 8,
+            "water_needed": 62000,
+            "firetrucks": 1,
             "spokesman": 1,
             "battalion_chief_vehicles": 2,
             "mobile_command_vehicles": 1,
             "elw3": 1,
             "platform_trucks": 2,
-            "water_tankers": 2,
             "mobile_air_vehicles": 1,
             "gwmess": 4,
             "hazmat_vehicles": 1,
@@ -16674,7 +16669,7 @@
         "prerequisites": {
             "rescue_stations": 4,
             "police_stations": 5,
-            "fire_stations": 23
+            "fire_stations": 24
         }
     },
     {
@@ -16985,9 +16980,9 @@
     },
     {
         "id": 604,
-        "name": "Brand in silo",
+        "name": "Brand in Silo",
         "place": "Silo",
-        "average_credits": 4860,
+        "average_credits": 5190,
         "generated_by": "Brandweer, Kazerne",
         "icons": [
             "/images/fire_gruen.png",
@@ -16995,10 +16990,10 @@
             "/images/fire_rot.png"
         ],
         "requirements": {
-            "firetrucks": 3,
+            "water_needed": 27000,
+            "firetrucks": 1,
             "battalion_chief_vehicles": 1,
             "platform_trucks": 1,
-            "water_tankers": 1,
             "mobile_air_vehicles": 1,
             "gwmess": 3,
             "hazmat_vehicles": 1,
@@ -17019,15 +17014,14 @@
         },
         "prerequisites": {
             "rescue_stations": 1,
-            "police_stations": 1,
             "fire_stations": 11
         }
     },
     {
         "id": 605,
-        "name": "Brand in silo",
+        "name": "Brand in Silo",
         "place": "Silo",
-        "average_credits": 11010,
+        "average_credits": 11340,
         "generated_by": "Brandweer, Kazerne",
         "icons": [
             "/images/fire_gruen.png",
@@ -17035,14 +17029,14 @@
             "/images/fire_rot.png"
         ],
         "requirements": {
-            "firetrucks": 4,
+            "water_needed": 46000,
+            "firetrucks": 1,
             "spokesman": 1,
             "battalion_chief_vehicles": 1,
             "mobile_command_vehicles": 1,
             "elw3": 1,
             "platform_trucks": 2,
             "heavy_rescue_vehicles": 1,
-            "water_tankers": 2,
             "mobile_air_vehicles": 1,
             "gwmess": 3,
             "hazmat_vehicles": 1,
@@ -19851,6 +19845,327 @@
         },
         "prerequisites": {
             "rescue_stations": 1
+        }
+    },
+    {
+        "id": 709,
+        "name": "Brand in boerderij",
+        "place": "Boerderij",
+        "average_credits": 2540,
+        "generated_by": "Brandweer, Kazerne",
+        "icons": [
+            "/images/fire_gruen.png",
+            "/images/fire_gelb.png",
+            "/images/fire_rot.png"
+        ],
+        "requirements": {
+            "water_needed": 8000,
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 3,
+            "expansion_missions_ids": [
+                710,
+                711
+            ],
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 2,
+            "fire_stations": 6
+        }
+    },
+    {
+        "id": 710,
+        "name": "Brand in boerderij",
+        "place": "Boerderij",
+        "average_credits": 5710,
+        "generated_by": "Brandweer, Kazerne",
+        "icons": [
+            "/images/fire_gruen.png",
+            "/images/fire_gelb.png",
+            "/images/fire_rot.png"
+        ],
+        "requirements": {
+            "water_needed": 31000,
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 1,
+            "mobile_air_vehicles": 1,
+            "police_cars": 3,
+            "ovdp": 1
+        },
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 4,
+            "expansion_missions_ids": [
+                711
+            ],
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 5,
+            "fire_stations": 13
+        }
+    },
+    {
+        "id": 711,
+        "name": "Brand in boerderij",
+        "place": "Boerderij",
+        "average_credits": 12300,
+        "generated_by": "Brandweer, Kazerne",
+        "icons": [
+            "/images/fire_gruen.png",
+            "/images/fire_gelb.png",
+            "/images/fire_rot.png"
+        ],
+        "requirements": {
+            "water_needed": 70000,
+            "firetrucks": 1,
+            "spokesman": 1,
+            "battalion_chief_vehicles": 2,
+            "mobile_command_vehicles": 1,
+            "elw3": 1,
+            "platform_trucks": 2,
+            "mobile_air_vehicles": 1,
+            "gwmess": 3,
+            "hazmat_vehicles": 1,
+            "police_cars": 6,
+            "ovdp": 1
+        },
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 4,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 7,
+            "fire_stations": 25
+        }
+    },
+    {
+        "id": 712,
+        "name": "Brand in hooischuur",
+        "place": "Boerderij",
+        "average_credits": 2280,
+        "generated_by": "Brandweer, Kazerne",
+        "icons": [
+            "/images/fire_gruen.png",
+            "/images/fire_gelb.png",
+            "/images/fire_rot.png"
+        ],
+        "requirements": {
+            "water_needed": 23000,
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": [
+                713,
+                714
+            ],
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "police_stations": 2,
+            "fire_stations": 7
+        }
+    },
+    {
+        "id": 713,
+        "name": "Brand in hooischuur",
+        "place": "Boerderij",
+        "average_credits": 4340,
+        "generated_by": "Brandweer, Kazerne",
+        "icons": [
+            "/images/fire_gruen.png",
+            "/images/fire_gelb.png",
+            "/images/fire_rot.png"
+        ],
+        "requirements": {
+            "water_needed": 39000,
+            "firetrucks": 1,
+            "spokesman": 1,
+            "battalion_chief_vehicles": 1,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 1,
+            "police_cars": 3
+        },
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 2,
+            "expansion_missions_ids": [
+                714
+            ],
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Algemene Heelkunde"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 3,
+            "fire_stations": 14
+        }
+    },
+    {
+        "id": 714,
+        "name": "Brand in hooischuur",
+        "place": "Boerderij",
+        "average_credits": 13230,
+        "generated_by": "Brandweer, Kazerne",
+        "icons": [
+            "/images/fire_gruen.png",
+            "/images/fire_gelb.png",
+            "/images/fire_rot.png"
+        ],
+        "requirements": {
+            "water_needed": 93000,
+            "firetrucks": 1,
+            "spokesman": 1,
+            "battalion_chief_vehicles": 2,
+            "mobile_command_vehicles": 1,
+            "elw3": 1,
+            "platform_trucks": 2,
+            "mobile_air_vehicles": 1,
+            "gwmess": 3,
+            "hazmat_vehicles": 1,
+            "police_cars": 6,
+            "ovdp": 1
+        },
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 4,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 7,
+            "fire_stations": 28
+        }
+    },
+    {
+        "id": 715,
+        "name": "Akkerbrand",
+        "place": "Boerderij",
+        "average_credits": 2280,
+        "generated_by": "Brandweer, Kazerne",
+        "icons": [
+            "/images/fire_gruen.png",
+            "/images/fire_gelb.png",
+            "/images/fire_rot.png"
+        ],
+        "requirements": {
+            "water_needed": 31000,
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": [
+                716,
+                717
+            ],
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "police_stations": 2,
+            "fire_stations": 7
+        }
+    },
+    {
+        "id": 716,
+        "name": "Akkerbrand",
+        "place": "Boerderij",
+        "average_credits": 10090,
+        "generated_by": "Brandweer, Kazerne",
+        "icons": [
+            "/images/fire_gruen.png",
+            "/images/fire_gelb.png",
+            "/images/fire_rot.png"
+        ],
+        "requirements": {
+            "water_needed": 70000,
+            "firetrucks": 1,
+            "spokesman": 1,
+            "battalion_chief_vehicles": 2,
+            "mobile_command_vehicles": 1,
+            "elw3": 1,
+            "mobile_air_vehicles": 1,
+            "gwmess": 3,
+            "hazmat_vehicles": 1,
+            "police_cars": 4,
+            "ovdp": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": [
+                717
+            ],
+            "max_possible_prisoners": 1,
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "police_stations": 5,
+            "fire_stations": 22
+        }
+    },
+    {
+        "id": 717,
+        "name": "Akkerbrand",
+        "place": "Boerderij",
+        "average_credits": 16400,
+        "generated_by": "Brandweer, Kazerne",
+        "icons": [
+            "/images/fire_gruen.png",
+            "/images/fire_gelb.png",
+            "/images/fire_rot.png"
+        ],
+        "requirements": {
+            "water_needed": 140000,
+            "firetrucks": 1,
+            "spokesman": 1,
+            "battalion_chief_vehicles": 5,
+            "mobile_command_vehicles": 2,
+            "elw3": 1,
+            "mobile_air_vehicles": 2,
+            "gwmess": 3,
+            "hazmat_vehicles": 1,
+            "police_cars": 8,
+            "ovdp": 2
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "police_stations": 10,
+            "fire_stations": 39
         }
     }
 ]
