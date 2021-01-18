@@ -17777,6 +17777,55 @@
         }
     },
     {
+        "id": 705,
+        "name": "Brandstichting",
+        "place": null,
+        "average_credits": 500,
+        "generated_by": "Brandweer, Kazerne",
+        "icons": [
+            "/images/fire_gruen.png",
+            "/images/fire_gelb.png",
+            "/images/fire_rot.png"
+        ],
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": [],
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    {
+        "id": 706,
+        "name": "Brandstichting",
+        "place": null,
+        "average_credits": 1180,
+        "generated_by": "Brandweer, Kazerne",
+        "icons": [
+            "/images/fire_gruen.png",
+            "/images/fire_gelb.png",
+            "/images/fire_rot.png"
+        ],
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "police_stations": 2,
+            "fire_stations": 6
+        }
+    },
+    {
         "id": 709,
         "name": "Brand in boerderij",
         "place": "Boerderij",
