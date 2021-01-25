@@ -19902,7 +19902,7 @@
         "id": 707,
         "name": "ANPR hit: Rijden zonder rijbewijs",
         "place": "Snelweg oprit / afrit",
-        "average_credits": 800,
+        "average_credits": 670,
         "generated_by": "Politie, Opkomstbureau",
         "icons": [
             "/images/zoom_gruen.png",
@@ -19928,7 +19928,7 @@
         "id": 708,
         "name": "ANPR hit: Gesignaleerd persoon",
         "place": "Snelweg oprit / afrit",
-        "average_credits": 1300,
+        "average_credits": 840,
         "generated_by": "Politie, Opkomstbureau",
         "icons": [
             "/images/zoom_gruen.png",
