@@ -16111,6 +16111,58 @@
         }
     },
     {
+        "id": 562,
+        "name": "Hart gestolen",
+        "place": null,
+        "average_credits": 400,
+        "generated_by": "Politie, Opkomstbureau",
+        "icons": [
+            "/images/theft_gruen.png",
+            "/images/theft_gelb.png",
+            "/images/theft_rot.png"
+        ],
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions",
+            "date_start": "vrij 14 feb 2020 00:00:00 UTC",
+            "date_end": "vrij 14 feb 2020 23:59:00 CET"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        }
+    },
+    {
+        "id": 563,
+        "name": "Hart gebroken",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulance, standplaats",
+        "icons": [
+            "/images/ambulance_gruen.png",
+            "/images/ambulance_gelb.png",
+            "/images/ambulance_rot.png"
+        ],
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "vrij 14 feb 2020 00:00:00 UTC",
+            "date_end": "vrij 14 feb 2020 23:59:00 CET",
+            "patient_specializations": "Cardiologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    {
         "id": 564,
         "name": "Voetganger onder tram",
         "place": "Tramhalte",
