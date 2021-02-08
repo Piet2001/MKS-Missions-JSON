@@ -18260,6 +18260,63 @@
         }
     },
     {
+        "id": 720,
+        "name": "Grote vechtpartij",
+        "place": null,
+        "average_credits": 2650,
+        "generated_by": "Politie, Hoofdbureau",
+        "icons": [
+            "/images/baseball_gruen.png",
+            "/images/baseball_gelb.png",
+            "/images/baseball_rot.png"
+        ],
+        "requirements": {
+            "hondengeleider": 1,
+            "police_cars": 6,
+            "ovdp": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": [
+                721
+            ],
+            "filter_id": "riot_police_missions"
+        },
+        "prerequisites": {
+            "police_stations": 7,
+            "bereitschaftspolizei": 1
+        }
+    },
+    {
+        "id": 721,
+        "name": "Rellen",
+        "place": null,
+        "average_credits": 5980,
+        "generated_by": "Politie, Hoofdbureau",
+        "icons": [
+            "/images/baseball_gruen.png",
+            "/images/baseball_gelb.png",
+            "/images/baseball_rot.png"
+        ],
+        "requirements": {
+            "hondengeleider": 2,
+            "lebefkw": 1,
+            "police_cars": 10,
+            "grukw": 3,
+            "ovdp": 1,
+            "bike_police": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "riot_police_missions",
+            "need_bike_police_only_if_present": true
+        },
+        "prerequisites": {
+            "police_stations": 13,
+            "bereitschaftspolizei": 3
+        }
+    },
+    {
         "id": 727,
         "name": "Stel heeft te veel chocola gegeten",
         "place": null,
