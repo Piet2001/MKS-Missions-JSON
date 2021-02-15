@@ -20440,6 +20440,127 @@
         }
     },
     {
+        "id": 722,
+        "name": "Explosie in woonhuis",
+        "place": null,
+        "average_credits": 3150,
+        "generated_by": "Brandweer, Kazerne",
+        "icons": [
+            "/images/blast_gruen.png",
+            "/images/blast_gelb.png",
+            "/images/blast_rot.png"
+        ],
+        "requirements": {
+            "water_needed": 8000,
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "police_cars": 2
+        },
+        "chances": {
+            "nef": 30,
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 3,
+            "possible_patient_min": 1,
+            "expansion_missions_ids": [
+                723,
+                724
+            ],
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Algemene Heelkunde"
+        },
+        "prerequisites": {
+            "rescue_stations": 10,
+            "police_stations": 2,
+            "fire_stations": 6
+        }
+    },
+    {
+        "id": 723,
+        "name": "Explosie in woonhuis",
+        "place": null,
+        "average_credits": 5490,
+        "generated_by": "Brandweer, Kazerne",
+        "icons": [
+            "/images/blast_gruen.png",
+            "/images/blast_gelb.png",
+            "/images/blast_rot.png"
+        ],
+        "requirements": {
+            "water_needed": 12000,
+            "firetrucks": 1,
+            "spokesman": 1,
+            "battalion_chief_vehicles": 1,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 2,
+            "police_cars": 3
+        },
+        "chances": {
+            "mobile_command_vehicles": 50,
+            "nef": 30,
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 3,
+            "possible_patient_min": 1,
+            "expansion_missions_ids": [
+                724
+            ],
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Algemene Heelkunde"
+        },
+        "prerequisites": {
+            "rescue_stations": 10,
+            "police_stations": 3,
+            "fire_stations": 14
+        }
+    },
+    {
+        "id": 724,
+        "name": "Explosie in woonhuis",
+        "place": null,
+        "average_credits": 12075,
+        "generated_by": "Brandweer, Kazerne",
+        "icons": [
+            "/images/blast_gruen.png",
+            "/images/blast_gelb.png",
+            "/images/blast_rot.png"
+        ],
+        "requirements": {
+            "water_needed": 31000,
+            "firetrucks": 1,
+            "spokesman": 1,
+            "battalion_chief_vehicles": 2,
+            "mobile_command_vehicles": 1,
+            "elw3": 1,
+            "platform_trucks": 2,
+            "heavy_rescue_vehicles": 2,
+            "mobile_air_vehicles": 1,
+            "gwmess": 3,
+            "hazmat_vehicles": 1,
+            "police_cars": 5,
+            "ovdp": 1
+        },
+        "chances": {
+            "nef": 40,
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 5,
+            "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Algemene Heelkunde"
+        },
+        "prerequisites": {
+            "rescue_stations": 10,
+            "police_stations": 6,
+            "fire_stations": 20
+        }
+    },
+    {
         "id": 727,
         "name": "Stel heeft te veel chocola gegeten",
         "place": null,
