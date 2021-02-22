@@ -3107,7 +3107,7 @@
         },
         "chances": {},
         "additional": {
-            "duration_text": "een uur",
+            "duration_text": "1 uur",
             "duration": 3600,
             "guard_mission": true,
             "filter_id": "police_station_missions"
@@ -5781,7 +5781,7 @@
         },
         "chances": {},
         "additional": {
-            "duration_text": "een uur",
+            "duration_text": "1 uur",
             "duration": 3600,
             "guard_mission": true,
             "filter_id": "riot_police_missions"
@@ -17047,7 +17047,7 @@
         },
         "chances": {},
         "additional": {
-            "duration_text": "een uur",
+            "duration_text": "1 uur",
             "duration": 3600,
             "guard_mission": true,
             "filter_id": "police_station_missions"
@@ -17244,7 +17244,7 @@
         },
         "chances": {},
         "additional": {
-            "duration_text": "een uur",
+            "duration_text": "1 uur",
             "duration": 3600,
             "guard_mission": true,
             "filter_id": "police_station_missions"
@@ -17269,7 +17269,7 @@
         },
         "chances": {},
         "additional": {
-            "duration_text": "een uur",
+            "duration_text": "1 uur",
             "duration": 3600,
             "guard_mission": true,
             "filter_id": "police_station_missions"
