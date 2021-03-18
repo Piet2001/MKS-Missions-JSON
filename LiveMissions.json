@@ -14147,7 +14147,8 @@
             "gefkw": 1,
             "police_cars": 4,
             "grukw": 6,
-            "ovdp": 1
+            "ovdp": 1,
+            "detention_unit": 1
         },
         "chances": {},
         "additional": {
@@ -14180,7 +14181,8 @@
             "lebefkw": 1,
             "police_cars": 2,
             "grukw": 3,
-            "ovdp": 1
+            "ovdp": 1,
+            "detention_unit": 1
         },
         "chances": {},
         "additional": {
@@ -16442,7 +16444,8 @@
             "gefkw": 1,
             "police_cars": 4,
             "grukw": 6,
-            "ovdp": 1
+            "ovdp": 1,
+            "detention_unit": 1
         },
         "chances": {},
         "additional": {
@@ -19812,7 +19815,8 @@
             "police_cars": 10,
             "grukw": 6,
             "ovdp": 1,
-            "bike_police": 2
+            "bike_police": 2,
+            "detention_unit": 1
         },
         "chances": {},
         "additional": {
@@ -20233,7 +20237,8 @@
             "police_cars": 8,
             "grukw": 9,
             "ovdp": 1,
-            "bike_police": 1
+            "bike_police": 1,
+            "detention_unit": 1
         },
         "chances": {
             "patient_transport": 60
@@ -20276,7 +20281,8 @@
             "police_cars": 5,
             "grukw": 6,
             "ovdp": 1,
-            "bike_police": 1
+            "bike_police": 1,
+            "detention_unit": 1
         },
         "chances": {
             "patient_transport": 0
@@ -20349,7 +20355,8 @@
             "lebefkw": 1,
             "police_cars": 6,
             "grukw": 6,
-            "bike_police": 1
+            "bike_police": 1,
+            "detention_unit": 1
         },
         "chances": {},
         "additional": {
