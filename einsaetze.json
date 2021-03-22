@@ -22997,6 +22997,56 @@
         }
     },
     {
+        "id": 759,
+        "name": "Identiteitsfraude",
+        "place": "",
+        "place_array": [],
+        "average_credits": 840,
+        "generated_by": "Politie, Opkomstbureau",
+        "icons": [
+            "/images/zoom_gruen.png",
+            "/images/zoom_gelb.png",
+            "/images/zoom_rot.png"
+        ],
+        "requirements": {
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 3
+        }
+    },
+    {
+        "id": 760,
+        "name": "Identiteitsfraude",
+        "place": "Winkelcentrum",
+        "place_array": [
+            "Winkelcentrum"
+        ],
+        "average_credits": 840,
+        "generated_by": "Politie, Opkomstbureau",
+        "icons": [
+            "/images/zoom_gruen.png",
+            "/images/zoom_gelb.png",
+            "/images/zoom_rot.png"
+        ],
+        "requirements": {
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 2,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 3
+        }
+    },
+    {
         "id": 763,
         "name": "Toezicht bij manifestatie",
         "place": "Park",
