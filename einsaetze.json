@@ -741,6 +741,33 @@
         "alternate_version": null
     },
     {
+        "id": 27,
+        "name": "Persoon aangereden",
+        "place": "",
+        "place_array": [],
+        "average_credits": 700,
+        "generated_by": "Brandweer, Kazerne",
+        "icons": [
+            "/images/caraccident_gruen.png",
+            "/images/caraccident_gelb.png",
+            "/images/caraccident_rot.png"
+        ],
+        "requirements": {
+            "firetrucks": 1,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {
+            "heavy_rescue_vehicles": 30
+        },
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 4
+        },
+        "alternate_version": null
+    },
+    {
         "id": 28,
         "name": "Brand in landbouwschuur",
         "place": "Boerderij",
@@ -3576,6 +3603,32 @@
         "alternate_version": null
     },
     {
+        "id": 125,
+        "name": "Vermist persoon",
+        "place": "",
+        "place_array": [],
+        "average_credits": 3500,
+        "generated_by": "Politie, Opkomstbureau",
+        "icons": [
+            "/images/zoom_gruen.png",
+            "/images/zoom_gelb.png",
+            "/images/zoom_rot.png"
+        ],
+        "requirements": {
+            "police_helicopters": 1,
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 3,
+            "police_helicopter_stations": 1
+        },
+        "alternate_version": null
+    },
+    {
         "id": 126,
         "name": "Brand in landbouwschuur",
         "place": "Boerderij",
@@ -4153,7 +4206,8 @@
     {
         "id": 146,
         "name": "Brandende vogelverschrikker",
-        "place": null,
+        "place": "",
+        "place_array": [],
         "average_credits": 350,
         "generated_by": "Brandweer, Kazerne",
         "icons": [
@@ -4172,12 +4226,14 @@
         },
         "prerequisites": {
             "fire_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 147,
         "name": "Brandend pompoenveld",
-        "place": null,
+        "place": "",
+        "place_array": [],
         "average_credits": 850,
         "generated_by": "Brandweer, Kazerne",
         "icons": [
@@ -4197,12 +4253,14 @@
         },
         "prerequisites": {
             "fire_stations": 6
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 148,
         "name": "Overkookte pompoensoep",
-        "place": null,
+        "place": "",
+        "place_array": [],
         "average_credits": 1500,
         "generated_by": "Brandweer, Kazerne",
         "icons": [
@@ -4226,12 +4284,14 @@
         "prerequisites": {
             "rescue_stations": 1,
             "fire_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 149,
         "name": "Heks vast in boom",
-        "place": null,
+        "place": "",
+        "place_array": [],
         "average_credits": 900,
         "generated_by": "Brandweer, Kazerne",
         "icons": [
@@ -4255,12 +4315,14 @@
         },
         "prerequisites": {
             "fire_stations": 3
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 150,
         "name": "Monster uitgebroken",
-        "place": null,
+        "place": "",
+        "place_array": [],
         "average_credits": 1600,
         "generated_by": "Politie, Opkomstbureau",
         "icons": [
@@ -4279,12 +4341,14 @@
         },
         "prerequisites": {
             "police_stations": 2
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 151,
         "name": "Gestolen pompoenen",
-        "place": null,
+        "place": "",
+        "place_array": [],
         "average_credits": 100,
         "generated_by": "Politie, Opkomstbureau",
         "icons": [
@@ -4303,12 +4367,14 @@
         },
         "prerequisites": {
             "police_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 152,
         "name": "Frankenstein gespot",
-        "place": null,
+        "place": "",
+        "place_array": [],
         "average_credits": 550,
         "generated_by": "Politie, Opkomstbureau",
         "icons": [
@@ -4327,12 +4393,14 @@
         },
         "prerequisites": {
             "police_stations": 2
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 153,
         "name": "Snoep diefstal",
-        "place": null,
+        "place": "",
+        "place_array": [],
         "average_credits": 100,
         "generated_by": "Politie, Opkomstbureau",
         "icons": [
@@ -4351,12 +4419,14 @@
         },
         "prerequisites": {
             "police_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 154,
         "name": "Horrorclown gespot",
-        "place": null,
+        "place": "",
+        "place_array": [],
         "average_credits": 600,
         "generated_by": "Politie, Opkomstbureau",
         "icons": [
@@ -4376,7 +4446,8 @@
         },
         "prerequisites": {
             "police_stations": 2
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 155,
@@ -4549,7 +4620,8 @@
     {
         "id": 160,
         "name": "Brandende cadeautjes",
-        "place": null,
+        "place": "",
+        "place_array": [],
         "average_credits": 550,
         "generated_by": "Brandweer, Kazerne",
         "icons": [
@@ -4568,12 +4640,14 @@
         },
         "prerequisites": {
             "fire_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 161,
         "name": "Sinterklaas van dak gegleden",
-        "place": null,
+        "place": "",
+        "place_array": [],
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": [
@@ -4595,12 +4669,14 @@
         },
         "prerequisites": {
             "rescue_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 162,
         "name": "Pepernoot op hoofd",
-        "place": null,
+        "place": "",
+        "place_array": [],
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": [
@@ -4622,12 +4698,14 @@
         },
         "prerequisites": {
             "rescue_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 163,
         "name": "Piet bestolen",
-        "place": null,
+        "place": "",
+        "place_array": [],
         "average_credits": 500,
         "generated_by": "Politie, Opkomstbureau",
         "icons": [
@@ -4646,12 +4724,14 @@
         },
         "prerequisites": {
             "police_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 164,
         "name": "Kind geschrokken",
-        "place": null,
+        "place": "",
+        "place_array": [],
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": [
@@ -4673,12 +4753,14 @@
         },
         "prerequisites": {
             "rescue_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 165,
         "name": "Piet klem in schoorsteen",
-        "place": null,
+        "place": "",
+        "place_array": [],
         "average_credits": 950,
         "generated_by": "Brandweer, Kazerne",
         "icons": [
@@ -4703,12 +4785,14 @@
         },
         "prerequisites": {
             "fire_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 166,
         "name": "Toezicht manifestatie pietendiscussie",
-        "place": null,
+        "place": "",
+        "place_array": [],
         "average_credits": 1200,
         "generated_by": "Politie, Opkomstbureau",
         "icons": [
@@ -4727,12 +4811,14 @@
         },
         "prerequisites": {
             "police_stations": 3
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 167,
         "name": "Schoenen dief",
-        "place": null,
+        "place": "",
+        "place_array": [],
         "average_credits": 200,
         "generated_by": "Politie, Opkomstbureau",
         "icons": [
@@ -4751,12 +4837,14 @@
         },
         "prerequisites": {
             "police_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 168,
         "name": "Verstikking in pepernoot",
-        "place": null,
+        "place": "",
+        "place_array": [],
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": [
@@ -4778,12 +4866,14 @@
         },
         "prerequisites": {
             "rescue_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 169,
         "name": "Brandende kerstboom",
-        "place": null,
+        "place": "",
+        "place_array": [],
         "average_credits": 500,
         "generated_by": "Brandweer, Kazerne",
         "icons": [
@@ -4802,12 +4892,16 @@
         },
         "prerequisites": {
             "fire_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 170,
         "name": "Brandende kerstboom",
         "place": "Kerstmarkt",
+        "place_array": [
+            "Kerstmarkt"
+        ],
         "average_credits": 500,
         "generated_by": "Brandweer, Kazerne",
         "icons": [
@@ -4826,12 +4920,14 @@
         },
         "prerequisites": {
             "fire_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 171,
         "name": "Verkeersongeval door gladheid",
-        "place": null,
+        "place": "",
+        "place_array": [],
         "average_credits": 1010,
         "generated_by": "Brandweer, Kazerne",
         "icons": [
@@ -4860,12 +4956,14 @@
             "rescue_stations": 1,
             "police_stations": 1,
             "fire_stations": 6
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 172,
         "name": "Gevallen kerstman",
-        "place": null,
+        "place": "",
+        "place_array": [],
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": [
@@ -4887,12 +4985,16 @@
         },
         "prerequisites": {
             "rescue_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 173,
         "name": "Ruzie op de kerstmarkt",
         "place": "Kerstmarkt",
+        "place_array": [
+            "Kerstmarkt"
+        ],
         "average_credits": 670,
         "generated_by": "Politie, Opkomstbureau",
         "icons": [
@@ -4912,12 +5014,16 @@
         },
         "prerequisites": {
             "police_stations": 2
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 174,
         "name": "Diefstal op de kerstmarkt",
         "place": "Kerstmarkt",
+        "place_array": [
+            "Kerstmarkt"
+        ],
         "average_credits": 670,
         "generated_by": "Politie, Opkomstbureau",
         "icons": [
@@ -4937,12 +5043,16 @@
         },
         "prerequisites": {
             "police_stations": 2
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 175,
         "name": "Brandende kerstmarktkraam",
         "place": "Kerstmarkt",
+        "place_array": [
+            "Kerstmarkt"
+        ],
         "average_credits": 500,
         "generated_by": "Brandweer, Kazerne",
         "icons": [
@@ -4961,12 +5071,14 @@
         },
         "prerequisites": {
             "fire_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 176,
         "name": "Gevallen schaatser",
-        "place": null,
+        "place": "",
+        "place_array": [],
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": [
@@ -4988,12 +5100,14 @@
         },
         "prerequisites": {
             "rescue_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 177,
         "name": "Gevallen persoon door gladheid",
-        "place": null,
+        "place": "",
+        "place_array": [],
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": [
@@ -5015,12 +5129,14 @@
         },
         "prerequisites": {
             "rescue_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 178,
         "name": "Donkere dagen offensief",
-        "place": null,
+        "place": "",
+        "place_array": [],
         "average_credits": 670,
         "generated_by": "Politie, Opkomstbureau",
         "icons": [
@@ -5039,12 +5155,14 @@
         },
         "prerequisites": {
             "police_stations": 2
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 179,
         "name": "Snijwond door gebroken kerstbal",
-        "place": null,
+        "place": "",
+        "place_array": [],
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": [
@@ -5066,7 +5184,8 @@
         },
         "prerequisites": {
             "rescue_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 180,
@@ -7381,6 +7500,9 @@
         "id": 253,
         "name": "Grote boek van Sinterklaas aangespoeld",
         "place": "Meer",
+        "place_array": [
+            "Meer"
+        ],
         "average_credits": 1000,
         "generated_by": "",
         "icons": [
@@ -7397,14 +7519,15 @@
         "chances": {},
         "additional": {
             "filter_id": "water_watch_missions",
-            "date_start": "za 14 nov 2020 10:00:00 CET",
-            "date_end": "zo 06 dec 2020 23:59:00 CET"
+            "date_start": "vrij 15 nov 2019 23:00:00 CET",
+            "date_end": "do 05 dec 2019 22:59:00 CET"
         },
         "prerequisites": {
             "wasserrettung": 1,
             "police_stations": 1,
             "fire_stations": 12
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 254,
@@ -11317,6 +11440,9 @@
         "id": 371,
         "name": "Verlaten slee langs waterkant",
         "place": "Meer",
+        "place_array": [
+            "Meer"
+        ],
         "average_credits": 1510,
         "generated_by": "",
         "icons": [
@@ -11346,12 +11472,16 @@
             "rescue_stations": 1,
             "police_stations": 1,
             "fire_stations": 6
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 372,
         "name": "Brandende kerststal",
         "place": "Kerstmarkt",
+        "place_array": [
+            "Kerstmarkt"
+        ],
         "average_credits": 500,
         "generated_by": "Brandweer, Kazerne",
         "icons": [
@@ -11370,12 +11500,14 @@
         },
         "prerequisites": {
             "fire_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 373,
         "name": "Brandwonden door gourmetstel",
-        "place": null,
+        "place": "",
+        "place_array": [],
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": [
@@ -11397,12 +11529,14 @@
         },
         "prerequisites": {
             "rescue_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 374,
         "name": "Geluidsoverlast door kerstmuziek",
-        "place": null,
+        "place": "",
+        "place_array": [],
         "average_credits": 500,
         "generated_by": "Politie, Opkomstbureau",
         "icons": [
@@ -11421,12 +11555,14 @@
         },
         "prerequisites": {
             "police_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 375,
         "name": "Persoon bekneld onder kerstpakketten",
-        "place": null,
+        "place": "",
+        "place_array": [],
         "average_credits": 1420,
         "generated_by": "Brandweer, Kazerne",
         "icons": [
@@ -11457,7 +11593,8 @@
             "rescue_stations": 1,
             "police_stations": 1,
             "fire_stations": 6
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 376,
@@ -16726,7 +16863,8 @@
     {
         "id": 525,
         "name": "Auto in brand door vuurwerk",
-        "place": null,
+        "place": "",
+        "place_array": [],
         "average_credits": 500,
         "generated_by": "Brandweer, Kazerne",
         "icons": [
@@ -16745,12 +16883,14 @@
         },
         "prerequisites": {
             "fire_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 526,
         "name": "Auto in brand door vuurwerk",
-        "place": null,
+        "place": "",
+        "place_array": [],
         "average_credits": 500,
         "generated_by": "Brandweer, Kazerne",
         "icons": [
@@ -16769,12 +16909,14 @@
         },
         "prerequisites": {
             "fire_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 527,
         "name": "Afval in brand door vuurwerk",
-        "place": null,
+        "place": "",
+        "place_array": [],
         "average_credits": 500,
         "generated_by": "Brandweer, Kazerne",
         "icons": [
@@ -16793,12 +16935,14 @@
         },
         "prerequisites": {
             "fire_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 528,
         "name": "Afval in brand door vuurwerk",
-        "place": null,
+        "place": "",
+        "place_array": [],
         "average_credits": 500,
         "generated_by": "Brandweer, Kazerne",
         "icons": [
@@ -16817,12 +16961,14 @@
         },
         "prerequisites": {
             "fire_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 529,
         "name": "Grasbrand door vuurwerk",
-        "place": null,
+        "place": "",
+        "place_array": [],
         "average_credits": 670,
         "generated_by": "Brandweer, Kazerne",
         "icons": [
@@ -16841,12 +16987,14 @@
         },
         "prerequisites": {
             "fire_stations": 2
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 530,
         "name": "Kelderbrand door vuurwerk",
-        "place": null,
+        "place": "",
+        "place_array": [],
         "average_credits": 1180,
         "generated_by": "Brandweer, Kazerne",
         "icons": [
@@ -16871,12 +17019,16 @@
         },
         "prerequisites": {
             "fire_stations": 6
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 531,
         "name": "Brandend bushokje door vuurwerk",
         "place": "Bushalte",
+        "place_array": [
+            "Bushalte"
+        ],
         "average_credits": 670,
         "generated_by": "Brandweer, Kazerne",
         "icons": [
@@ -16895,12 +17047,14 @@
         },
         "prerequisites": {
             "fire_stations": 3
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 532,
         "name": "Brandend op balkon door vuurwerk",
-        "place": null,
+        "place": "",
+        "place_array": [],
         "average_credits": 1010,
         "generated_by": "Brandweer, Kazerne",
         "icons": [
@@ -16922,12 +17076,14 @@
         },
         "prerequisites": {
             "fire_stations": 3
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 533,
         "name": "Brandende papiercontainer door vuurwerk",
-        "place": null,
+        "place": "",
+        "place_array": [],
         "average_credits": 500,
         "generated_by": "Brandweer, Kazerne",
         "icons": [
@@ -16946,12 +17102,14 @@
         },
         "prerequisites": {
             "fire_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 534,
         "name": "Brandende heg door vuurwerk",
-        "place": null,
+        "place": "",
+        "place_array": [],
         "average_credits": 500,
         "generated_by": "Brandweer, Kazerne",
         "icons": [
@@ -16970,12 +17128,14 @@
         },
         "prerequisites": {
             "fire_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 535,
         "name": "Brandende heg door vuurwerk",
-        "place": null,
+        "place": "",
+        "place_array": [],
         "average_credits": 500,
         "generated_by": "Brandweer, Kazerne",
         "icons": [
@@ -16994,12 +17154,14 @@
         },
         "prerequisites": {
             "fire_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 536,
         "name": "Beschonken bestuurder na Oud en Nieuw feest",
-        "place": null,
+        "place": "",
+        "place_array": [],
         "average_credits": 150,
         "generated_by": "Politie, Opkomstbureau",
         "icons": [
@@ -17018,12 +17180,14 @@
         },
         "prerequisites": {
             "police_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 537,
         "name": "Beschonken bestuurder na Oud en Nieuw feest",
-        "place": null,
+        "place": "",
+        "place_array": [],
         "average_credits": 150,
         "generated_by": "Politie, Opkomstbureau",
         "icons": [
@@ -17042,12 +17206,14 @@
         },
         "prerequisites": {
             "police_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 538,
         "name": "Rieten kap woning in brand door vuurwerk",
-        "place": null,
+        "place": "",
+        "place_array": [],
         "average_credits": 3100,
         "generated_by": "Brandweer, Kazerne",
         "icons": [
@@ -17079,12 +17245,14 @@
             "rescue_stations": 10,
             "police_stations": 2,
             "fire_stations": 7
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 539,
         "name": "Auto beschadigd door vuurwerk",
-        "place": null,
+        "place": "",
+        "place_array": [],
         "average_credits": 500,
         "generated_by": "Politie, Opkomstbureau",
         "icons": [
@@ -17103,12 +17271,14 @@
         },
         "prerequisites": {
             "police_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 540,
         "name": "Overtreding op vuurwerkbesluit",
-        "place": null,
+        "place": "",
+        "place_array": [],
         "average_credits": 500,
         "generated_by": "Politie, Opkomstbureau",
         "icons": [
@@ -17127,12 +17297,14 @@
         },
         "prerequisites": {
             "police_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 541,
         "name": "Handletsel door vuurwerk",
-        "place": null,
+        "place": "",
+        "place_array": [],
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": [
@@ -17155,12 +17327,14 @@
         },
         "prerequisites": {
             "rescue_stations": 10
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 542,
         "name": "Verkeersongeval door gladheid",
-        "place": null,
+        "place": "",
+        "place_array": [],
         "average_credits": 1010,
         "generated_by": "Brandweer, Kazerne",
         "icons": [
@@ -17189,12 +17363,14 @@
             "rescue_stations": 1,
             "police_stations": 1,
             "fire_stations": 6
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 543,
         "name": "Verkeersongeval door gladheid",
-        "place": null,
+        "place": "",
+        "place_array": [],
         "average_credits": 1010,
         "generated_by": "Brandweer, Kazerne",
         "icons": [
@@ -17223,12 +17399,14 @@
             "rescue_stations": 1,
             "police_stations": 1,
             "fire_stations": 6
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 544,
         "name": "Gevallen persoon door gladheid",
-        "place": null,
+        "place": "",
+        "place_array": [],
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": [
@@ -17250,12 +17428,14 @@
         },
         "prerequisites": {
             "rescue_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 545,
         "name": "Gevallen persoon door gladheid",
-        "place": null,
+        "place": "",
+        "place_array": [],
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": [
@@ -17277,12 +17457,14 @@
         },
         "prerequisites": {
             "rescue_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 546,
         "name": "Donkere dagen offensief",
-        "place": null,
+        "place": "",
+        "place_array": [],
         "average_credits": 670,
         "generated_by": "Politie, Opkomstbureau",
         "icons": [
@@ -17301,12 +17483,14 @@
         },
         "prerequisites": {
             "police_stations": 2
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 547,
         "name": "Donkere dagen offensief",
-        "place": null,
+        "place": "",
+        "place_array": [],
         "average_credits": 670,
         "generated_by": "Politie, Opkomstbureau",
         "icons": [
@@ -17325,7 +17509,8 @@
         },
         "prerequisites": {
             "police_stations": 2
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 548,
@@ -17818,7 +18003,8 @@
     {
         "id": 562,
         "name": "Hart gestolen",
-        "place": null,
+        "place": "",
+        "place_array": [],
         "average_credits": 400,
         "generated_by": "Politie, Opkomstbureau",
         "icons": [
@@ -17833,18 +18019,20 @@
         "additional": {
             "max_possible_prisoners": 1,
             "filter_id": "police_station_missions",
-            "date_start": "vrij 14 feb 2020 00:00:00 UTC",
+            "date_start": "vrij 14 feb 2020 00:00:00 CET",
             "date_end": "vrij 14 feb 2020 23:59:00 CET"
         },
         "prerequisites": {
             "police_stations": 2
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 563,
         "name": "Hart gebroken",
-        "place": null,
-        "average_credits": null,
+        "place": "",
+        "place_array": [],
+        "average_credits": 300,
         "generated_by": "Ambulance, standplaats",
         "icons": [
             "/images/ambulance_gruen.png",
@@ -17859,13 +18047,14 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
-            "date_start": "vrij 14 feb 2020 00:00:00 UTC",
+            "date_start": "vrij 14 feb 2020 00:00:00 CET",
             "date_end": "vrij 14 feb 2020 23:59:00 CET",
             "patient_specializations": "Cardiologie"
         },
         "prerequisites": {
             "rescue_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 564,
@@ -19628,7 +19817,8 @@
     {
         "id": 617,
         "name": "Zonnesteek",
-        "place": null,
+        "place": "",
+        "place_array": [],
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": [
@@ -19650,12 +19840,14 @@
         },
         "prerequisites": {
             "rescue_stations": 2
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 618,
         "name": "Hitteslag",
-        "place": null,
+        "place": "",
+        "place_array": [],
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": [
@@ -19677,12 +19869,14 @@
         },
         "prerequisites": {
             "rescue_stations": 4
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 619,
         "name": "Hittekramp",
-        "place": null,
+        "place": "",
+        "place_array": [],
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": [
@@ -19704,12 +19898,14 @@
         },
         "prerequisites": {
             "rescue_stations": 4
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 620,
         "name": "Uitgedroogde persoon",
-        "place": null,
+        "place": "",
+        "place_array": [],
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": [
@@ -19731,12 +19927,14 @@
         },
         "prerequisites": {
             "rescue_stations": 3
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 621,
         "name": "Barbecuebrand",
-        "place": null,
+        "place": "",
+        "place_array": [],
         "average_credits": 600,
         "generated_by": "Brandweer, Kazerne",
         "icons": [
@@ -19755,7 +19953,8 @@
         },
         "prerequisites": {
             "fire_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 622,
@@ -21856,7 +22055,8 @@
     {
         "id": 688,
         "name": "Illegaal afsteken van vuurwerk",
-        "place": null,
+        "place": "",
+        "place_array": [],
         "average_credits": 670,
         "generated_by": "Politie, Opkomstbureau",
         "icons": [
@@ -21876,12 +22076,14 @@
         },
         "prerequisites": {
             "police_stations": 2
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 689,
         "name": "Vuurwerkoverlast",
-        "place": null,
+        "place": "",
+        "place_array": [],
         "average_credits": 840,
         "generated_by": "Politie, Opkomstbureau",
         "icons": [
@@ -21901,12 +22103,14 @@
         },
         "prerequisites": {
             "police_stations": 3
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 690,
         "name": "Vernieling met vuurwerk",
-        "place": null,
+        "place": "",
+        "place_array": [],
         "average_credits": 670,
         "generated_by": "Politie, Opkomstbureau",
         "icons": [
@@ -21926,12 +22130,14 @@
         },
         "prerequisites": {
             "police_stations": 2
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 691,
         "name": "Illegaal vuurwerk in huis",
-        "place": null,
+        "place": "",
+        "place_array": [],
         "average_credits": 1200,
         "generated_by": "Politie, Hoofdbureau",
         "icons": [
@@ -21953,12 +22159,14 @@
         "prerequisites": {
             "police_stations": 2,
             "bereitschaftspolizei": 1
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 692,
         "name": "Politie aangevallen met illegaal vuurwerk",
-        "place": null,
+        "place": "",
+        "place_array": [],
         "average_credits": 4580,
         "generated_by": "Politie, Hoofdbureau",
         "icons": [
@@ -21982,13 +22190,16 @@
         },
         "prerequisites": {
             "police_stations": 6,
-            "bereitschaftspolizei": 3
-        }
+            "bereitschaftspolizei": 3,
+            "riot_unit_count": 1
+        },
+        "alternate_version": null
     },
     {
         "id": 693,
         "name": "Dier in paniek door vuurwerk",
-        "place": null,
+        "place": "",
+        "place_array": [],
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": [
@@ -22010,12 +22221,14 @@
         },
         "prerequisites": {
             "rescue_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 694,
         "name": "Verwonding door ontplofte blindganger",
-        "place": null,
+        "place": "",
+        "place_array": [],
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": [
@@ -22037,12 +22250,14 @@
         },
         "prerequisites": {
             "rescue_stations": 2
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 695,
         "name": "Verwonding door onjuist vuurwerkgebruik",
-        "place": null,
+        "place": "",
+        "place_array": [],
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": [
@@ -22064,12 +22279,14 @@
         },
         "prerequisites": {
             "rescue_stations": 3
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 696,
         "name": "Persoon geraakt door vuurwerk",
-        "place": null,
+        "place": "",
+        "place_array": [],
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": [
@@ -22091,12 +22308,14 @@
         },
         "prerequisites": {
             "rescue_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 697,
         "name": "Epileptische aanval na vuurwerkflitsen",
-        "place": null,
+        "place": "",
+        "place_array": [],
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": [
@@ -22118,12 +22337,16 @@
         },
         "prerequisites": {
             "rescue_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 698,
         "name": "Toezicht nieuwjaarsfeest",
         "place": "Stadscentrum",
+        "place_array": [
+            "Stadscentrum"
+        ],
         "average_credits": 15000,
         "generated_by": "Politie, Opkomstbureau",
         "icons": [
@@ -22147,12 +22370,14 @@
         "prerequisites": {
             "rescue_stations": 2,
             "police_stations": 4
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 699,
         "name": "Afsteken illegaal vuurwerk",
-        "place": null,
+        "place": "",
+        "place_array": [],
         "average_credits": 800,
         "generated_by": "Politie, Opkomstbureau",
         "icons": [
@@ -22177,12 +22402,14 @@
         "prerequisites": {
             "rescue_stations": 1,
             "police_stations": 2
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 700,
         "name": "Vuurwerk afgestoken op de weg",
-        "place": null,
+        "place": "",
+        "place_array": [],
         "average_credits": 300,
         "generated_by": "Politie, Opkomstbureau",
         "icons": [
@@ -22205,12 +22432,14 @@
         },
         "prerequisites": {
             "police_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 701,
         "name": "Auto verongelukt door vuurwerk op de weg",
-        "place": null,
+        "place": "",
+        "place_array": [],
         "average_credits": 1200,
         "generated_by": "Politie, Opkomstbureau",
         "icons": [
@@ -22236,12 +22465,14 @@
         "prerequisites": {
             "rescue_stations": 4,
             "police_stations": 2
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 702,
         "name": "Gesabotteerde vuurwerkshow",
-        "place": null,
+        "place": "",
+        "place_array": [],
         "average_credits": 2000,
         "generated_by": "Politie, Opkomstbureau",
         "icons": [
@@ -22261,7 +22492,8 @@
         },
         "prerequisites": {
             "police_stations": 4
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 703,
@@ -23095,7 +23327,8 @@
     {
         "id": 727,
         "name": "Stel heeft te veel chocola gegeten",
-        "place": null,
+        "place": "",
+        "place_array": [],
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": [
@@ -23117,12 +23350,14 @@
         },
         "prerequisites": {
             "rescue_stations": 2
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 728,
         "name": "Vlinders in de buik",
-        "place": null,
+        "place": "",
+        "place_array": [],
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": [
@@ -23144,12 +23379,14 @@
         },
         "prerequisites": {
             "rescue_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 729,
         "name": "Hartaanval door aanzoekschok",
-        "place": null,
+        "place": "",
+        "place_array": [],
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": [
@@ -23171,12 +23408,14 @@
         },
         "prerequisites": {
             "rescue_stations": 2
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 730,
         "name": "Gebroken hart",
-        "place": null,
+        "place": "",
+        "place_array": [],
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": [
@@ -23198,12 +23437,14 @@
         },
         "prerequisites": {
             "rescue_stations": 3
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 731,
         "name": "Valentijnsdecoraties in restaurant in brand gevlogen",
-        "place": null,
+        "place": "",
+        "place_array": [],
         "average_credits": 2000,
         "generated_by": "Brandweer, Kazerne",
         "icons": [
@@ -23229,12 +23470,14 @@
         "prerequisites": {
             "rescue_stations": 7,
             "fire_stations": 7
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 732,
         "name": "Brand door diner met kaarsen",
-        "place": null,
+        "place": "",
+        "place_array": [],
         "average_credits": 500,
         "generated_by": "Brandweer, Kazerne",
         "icons": [
@@ -23259,12 +23502,14 @@
         "prerequisites": {
             "rescue_stations": 1,
             "fire_stations": 2
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 733,
         "name": "Zoektocht naar verdwenen vriendje",
-        "place": null,
+        "place": "",
+        "place_array": [],
         "average_credits": 1100,
         "generated_by": "Politie, Opkomstbureau",
         "icons": [
@@ -23283,12 +23528,14 @@
         },
         "prerequisites": {
             "police_stations": 2
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 734,
         "name": "Klacht over luidruchtig ruziënd stel",
-        "place": null,
+        "place": "",
+        "place_array": [],
         "average_credits": 700,
         "generated_by": "Politie, Opkomstbureau",
         "icons": [
@@ -23307,12 +23554,14 @@
         },
         "prerequisites": {
             "police_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 735,
         "name": "Gestolen hart",
-        "place": null,
+        "place": "",
+        "place_array": [],
         "average_credits": 1100,
         "generated_by": "Politie, Opkomstbureau",
         "icons": [
@@ -23331,12 +23580,14 @@
         },
         "prerequisites": {
             "police_stations": 2
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 736,
         "name": "Ongeluk bij bakken verjaardagstaart",
-        "place": null,
+        "place": "",
+        "place_array": [],
         "average_credits": 800,
         "generated_by": "Brandweer, Kazerne",
         "icons": [
@@ -23355,12 +23606,14 @@
         },
         "prerequisites": {
             "fire_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 737,
         "name": "Verjaardagsballon vast in boom",
-        "place": null,
+        "place": "",
+        "place_array": [],
         "average_credits": 600,
         "generated_by": "Brandweer, Kazerne",
         "icons": [
@@ -23380,12 +23633,14 @@
         },
         "prerequisites": {
             "fire_stations": 3
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 738,
         "name": "Vuur door elektrische verjaardagsversiering (klein)",
-        "place": null,
+        "place": "",
+        "place_array": [],
         "average_credits": 1850,
         "generated_by": "Brandweer, Kazerne",
         "icons": [
@@ -23404,12 +23659,14 @@
         },
         "prerequisites": {
             "fire_stations": 2
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 739,
         "name": "Vuur door elektrische verjaardagsversiering (groot)",
-        "place": null,
+        "place": "",
+        "place_array": [],
         "average_credits": 3000,
         "generated_by": "Brandweer, Kazerne",
         "icons": [
@@ -23429,12 +23686,14 @@
         },
         "prerequisites": {
             "fire_stations": 6
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 740,
         "name": "Verjaardagscadeau gestolen",
-        "place": null,
+        "place": "",
+        "place_array": [],
         "average_credits": 400,
         "generated_by": "Politie, Opkomstbureau",
         "icons": [
@@ -23453,12 +23712,14 @@
         },
         "prerequisites": {
             "police_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 741,
         "name": "Sabotage van verjaardagsjukeboxes",
-        "place": null,
+        "place": "",
+        "place_array": [],
         "average_credits": 800,
         "generated_by": "Politie, Opkomstbureau",
         "icons": [
@@ -23477,12 +23738,14 @@
         },
         "prerequisites": {
             "police_stations": 2
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 742,
         "name": "Verjaardagsgast vermist",
-        "place": null,
+        "place": "",
+        "place_array": [],
         "average_credits": 1200,
         "generated_by": "Politie, Opkomstbureau",
         "icons": [
@@ -23502,12 +23765,14 @@
         },
         "prerequisites": {
             "police_stations": 3
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 743,
         "name": "Verjaardagsgasten hebben versiering gestolen",
-        "place": null,
+        "place": "",
+        "place_array": [],
         "average_credits": 3000,
         "generated_by": "Politie, Opkomstbureau",
         "icons": [
@@ -23527,12 +23792,14 @@
         },
         "prerequisites": {
             "police_stations": 6
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 744,
         "name": "Verjaardagsgasten hebben taart gestolen",
-        "place": null,
+        "place": "",
+        "place_array": [],
         "average_credits": 5000,
         "generated_by": "Politie, Opkomstbureau",
         "icons": [
@@ -23552,12 +23819,14 @@
         },
         "prerequisites": {
             "police_stations": 6
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 745,
         "name": "Gast heeft teveel verjaardagstaart gegeten",
-        "place": null,
+        "place": "",
+        "place_array": [],
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": [
@@ -23579,12 +23848,14 @@
         },
         "prerequisites": {
             "rescue_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 746,
         "name": "Papiersnee bij openen verjaardagscadeau",
-        "place": null,
+        "place": "",
+        "place_array": [],
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": [
@@ -23606,12 +23877,14 @@
         },
         "prerequisites": {
             "rescue_stations": 1
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 747,
         "name": "Verjaardagsgast met gewrichtspijn na dansen",
-        "place": null,
+        "place": "",
+        "place_array": [],
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": [
@@ -23633,12 +23906,14 @@
         },
         "prerequisites": {
             "rescue_stations": 7
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 748,
         "name": "Verjaardagsgast geraakt door rondvliegende kurk",
-        "place": null,
+        "place": "",
+        "place_array": [],
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": [
@@ -23660,12 +23935,14 @@
         },
         "prerequisites": {
             "rescue_stations": 3
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 749,
         "name": "Verjaardagsgast flauwgevallen",
-        "place": null,
+        "place": "",
+        "place_array": [],
         "average_credits": null,
         "generated_by": "Ambulance, standplaats",
         "icons": [
@@ -23687,12 +23964,14 @@
         },
         "prerequisites": {
             "rescue_stations": 3
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 750,
         "name": "Mensen vermist op dansvloer",
-        "place": null,
+        "place": "",
+        "place_array": [],
         "average_credits": 7500,
         "generated_by": "Politie, Opkomstbureau",
         "icons": [
@@ -23721,12 +24000,14 @@
             "rescue_stations": 1,
             "police_stations": 1,
             "fire_stations": 6
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 751,
         "name": "Ballonnen opblazen voor verjaardagsfeest",
-        "place": null,
+        "place": "",
+        "place_array": [],
         "average_credits": 15000,
         "generated_by": "Politie, Opkomstbureau",
         "icons": [
@@ -23753,12 +24034,14 @@
             "rescue_stations": 1,
             "police_stations": 3,
             "fire_stations": 5
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 752,
         "name": "Gast heeft vergiftigd drankje gedronken op verjaardagsfeest",
-        "place": null,
+        "place": "",
+        "place_array": [],
         "average_credits": 1200,
         "generated_by": "Politie, Opkomstbureau",
         "icons": [
@@ -23785,7 +24068,8 @@
             "rescue_stations": 2,
             "police_stations": 3,
             "fire_stations": 6
-        }
+        },
+        "alternate_version": null
     },
     {
         "id": 753,
