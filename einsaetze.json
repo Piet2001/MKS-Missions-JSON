@@ -25023,6 +25023,92 @@
         "alternate_version": null
     },
     {
+        "id": 781,
+        "name": "Snijwond",
+        "place": "",
+        "place_array": [],
+        "average_credits": null,
+        "generated_by": "Ambulance, standplaats",
+        "icons": [
+            "/images/medicalstore_gruen.png",
+            "/images/medicalstore_gelb.png",
+            "/images/medicalstore_rot.png"
+        ],
+        "requirements": {},
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Algemene Heelkunde"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    {
+        "id": 782,
+        "name": "Diepe snijwond",
+        "place": "",
+        "place_array": [],
+        "average_credits": null,
+        "generated_by": "Ambulance, standplaats",
+        "icons": [
+            "/images/medicalstore_gruen.png",
+            "/images/medicalstore_gelb.png",
+            "/images/medicalstore_rot.png"
+        ],
+        "requirements": {},
+        "chances": {
+            "nef": 20,
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "expansion_missions_ids": [
+                783
+            ],
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    {
+        "id": 783,
+        "name": "Slagaderlijke bloeding",
+        "place": "",
+        "place_array": [],
+        "average_credits": null,
+        "generated_by": "Ambulance, standplaats",
+        "icons": [
+            "/images/medicalstore_gruen.png",
+            "/images/medicalstore_gelb.png",
+            "/images/medicalstore_rot.png"
+        ],
+        "requirements": {},
+        "chances": {
+            "nef": 60,
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 10
+        },
+        "alternate_version": null
+    },
+    {
         "id": 788,
         "name": "Iemand uitgegleden over gesmolten chocolade",
         "place": "",
