@@ -25109,6 +25109,60 @@
         "alternate_version": null
     },
     {
+        "id": 784,
+        "name": "Dier op de snelweg",
+        "place": "Snelweg oprit / afrit\nVerzorgingsplaats (Snelweg)",
+        "place_array": [
+            "Snelweg oprit / afrit",
+            "Verzorgingsplaats (Snelweg)"
+        ],
+        "average_credits": 670,
+        "generated_by": "Politie, Opkomstbureau",
+        "icons": [
+            "/images/cat_gruen.png",
+            "/images/cat_gelb.png",
+            "/images/cat_rot.png"
+        ],
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        },
+        "alternate_version": null
+    },
+    {
+        "id": 785,
+        "name": "Voetganger op de snelweg",
+        "place": "Snelweg oprit / afrit\nVerzorgingsplaats (Snelweg)",
+        "place_array": [
+            "Snelweg oprit / afrit",
+            "Verzorgingsplaats (Snelweg)"
+        ],
+        "average_credits": 840,
+        "generated_by": "Politie, Opkomstbureau",
+        "icons": [
+            "/images/icy_road_gruen.png",
+            "/images/icy_road_gelb.png",
+            "/images/icy_road_rot.png"
+        ],
+        "requirements": {
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 3
+        },
+        "alternate_version": null
+    },
+    {
         "id": 788,
         "name": "Iemand uitgegleden over gesmolten chocolade",
         "place": "",
