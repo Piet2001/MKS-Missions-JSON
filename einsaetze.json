@@ -27061,6 +27061,68 @@
         "alternate_version": null
     },
     {
+        "id": 813,
+        "name": "ANPR hit: Mobiel banditisme",
+        "place": "Snelweg oprit / afrit",
+        "place_array": [
+            "Snelweg oprit / afrit"
+        ],
+        "average_credits": 670,
+        "generated_by": "Politie, Opkomstbureau",
+        "icons": [
+            "/images/zoom_gruen.png",
+            "/images/zoom_gelb.png",
+            "/images/zoom_rot.png"
+        ],
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": [
+                124
+            ],
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "main_building": 5,
+            "police_stations": 2
+        },
+        "alternate_version": null
+    },
+    {
+        "id": 814,
+        "name": "ANPR hit: Vervreemd voertuig",
+        "place": "Snelweg oprit / afrit",
+        "place_array": [
+            "Snelweg oprit / afrit"
+        ],
+        "average_credits": 840,
+        "generated_by": "Politie, Opkomstbureau",
+        "icons": [
+            "/images/zoom_gruen.png",
+            "/images/zoom_gelb.png",
+            "/images/zoom_rot.png"
+        ],
+        "requirements": {
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": [
+                124
+            ],
+            "max_possible_prisoners": 2,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "main_building": 5,
+            "police_stations": 3
+        },
+        "alternate_version": null
+    },
+    {
         "id": 820,
         "name": "Opblazen wedstrijdbal",
         "place": "",
