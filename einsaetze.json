@@ -27194,6 +27194,114 @@
         "alternate_version": null
     },
     {
+        "id": 817,
+        "name": "Gevallen blokarter",
+        "place": "Strand\nStrandopgang",
+        "place_array": [
+            "Strand",
+            "Strandopgang"
+        ],
+        "average_credits": 830,
+        "generated_by": "Waterreddingspost",
+        "icons": [
+            "/images/medicalstore_gruen.png",
+            "/images/medicalstore_gelb.png",
+            "/images/medicalstore_rot.png"
+        ],
+        "requirements": {
+            "water_rescue": 1
+        },
+        "chances": {
+            "patient_transport": 75
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "water_watch_missions",
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "main_building": 16,
+            "water_rescue_2": 1,
+            "rescue_stations": 1
+        },
+        "alternate_version": null
+    },
+    {
+        "id": 818,
+        "name": "Aanrijding blokarters",
+        "place": "Strand\nStrandopgang",
+        "place_array": [
+            "Strand",
+            "Strandopgang"
+        ],
+        "average_credits": 3020,
+        "generated_by": "Waterreddingspost",
+        "icons": [
+            "/images/caraccident_gruen.png",
+            "/images/caraccident_gelb.png",
+            "/images/caraccident_rot.png"
+        ],
+        "requirements": {
+            "police_cars": 2,
+            "water_rescue": 3
+        },
+        "chances": {
+            "patient_transport": 75
+        },
+        "additional": {
+            "possible_patient": 4,
+            "possible_patient_min": 2,
+            "filter_id": "water_watch_missions",
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "main_building": 16,
+            "water_rescue_2": 3,
+            "rescue_stations": 8,
+            "police_stations": 2
+        },
+        "alternate_version": null
+    },
+    {
+        "id": 819,
+        "name": "Toezicht/Begeleiding Surfwedstrijd",
+        "place": "Meer\nStrand\nStrandopgang",
+        "place_array": [
+            "Meer",
+            "Strand",
+            "Strandopgang"
+        ],
+        "average_credits": 7860,
+        "generated_by": "Waterreddingspost",
+        "icons": [
+            "/images/clock_gruen.png",
+            "/images/clock_gelb.png",
+            "/images/clock_rot.png"
+        ],
+        "requirements": {
+            "ambulances": 1,
+            "police_cars": 2,
+            "water_rescue": 4,
+            "boats": 4
+        },
+        "chances": {},
+        "additional": {
+            "duration_text": "een uur",
+            "duration": 3600,
+            "guard_mission": true,
+            "filter_id": "water_watch_missions"
+        },
+        "prerequisites": {
+            "main_building": 16,
+            "wasserrettung": 5,
+            "water_rescue_2": 8,
+            "rescue_stations": 1,
+            "police_stations": 2
+        },
+        "alternate_version": null
+    },
+    {
         "id": 820,
         "name": "Opblazen wedstrijdbal",
         "place": "",
