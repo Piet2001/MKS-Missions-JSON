@@ -4,4 +4,6 @@ Repo to track MKS missions changes.
 
 An export from <https://www.meldkamerspel.com/einsaetze.json>
 
-einsartze.json => All missions ever in game.
+einsaetze.json => All missions ever in game.
+
+Logging in discord <https://discord.gg/p52e6Vn>
