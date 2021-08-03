@@ -28011,9 +28011,8 @@
     {
         "id": 842,
         "name": "Voertuigbrand in tunnel",
-        "place": "Snelweg oprit / afrit\nTunnel",
+        "place": "Tunnel",
         "place_array": [
-            "Snelweg oprit / afrit",
             "Tunnel"
         ],
         "average_credits": 1770,
@@ -28046,9 +28045,8 @@
     {
         "id": 843,
         "name": "Voertuigbrand in tunnel",
-        "place": "Snelweg oprit / afrit\nTunnel",
+        "place": "Tunnel",
         "place_array": [
-            "Snelweg oprit / afrit",
             "Tunnel"
         ],
         "average_credits": 4060,
