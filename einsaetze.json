@@ -1300,7 +1300,7 @@
         "name": "Liftopsluiting",
         "place": "",
         "place_array": [],
-        "average_credits": 170,
+        "average_credits": 500,
         "generated_by": "Brandweer, Kazerne",
         "icons": [
             "/images/elevator_gruen.png",
@@ -1312,7 +1312,10 @@
         },
         "chances": {},
         "additional": {
-            "allow_rw_instead_of_lf": true,
+            "expansion_missions_ids": [
+                478,
+                844
+            ],
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
@@ -15747,7 +15750,7 @@
         "name": "Liftopsluiting",
         "place": "",
         "place_array": [],
-        "average_credits": 170,
+        "average_credits": 500,
         "generated_by": "Brandweer, Kazerne",
         "icons": [
             "/images/elevator_gruen.png",
@@ -15757,13 +15760,21 @@
         "requirements": {
             "firetrucks": 1
         },
-        "chances": {},
+        "chances": {
+            "patient_transport": 25
+        },
         "additional": {
-            "allow_rw_instead_of_lf": true,
-            "filter_id": "firehouse_missions"
+            "possible_patient": 1,
+            "expansion_missions_ids": [
+                844
+            ],
+            "filter_id": "firehouse_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Interne Geneeskunde"
         },
         "prerequisites": {
             "main_building": 0,
+            "rescue_stations": 1,
             "fire_stations": 1
         },
         "alternate_version": null
@@ -28079,6 +28090,38 @@
             "police_stations": 5,
             "bereitschaftspolizei": 1,
             "fire_stations": 11
+        },
+        "alternate_version": null
+    },
+    {
+        "id": 844,
+        "name": "Onwel geworden persoon vast in lift",
+        "place": "",
+        "place_array": [],
+        "average_credits": 500,
+        "generated_by": "Brandweer, Kazerne",
+        "icons": [
+            "/images/elevator_gruen.png",
+            "/images/elevator_gelb.png",
+            "/images/elevator_rot.png"
+        ],
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {
+            "patient_transport": 75
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Interne Geneeskunde"
+        },
+        "prerequisites": {
+            "main_building": 0,
+            "rescue_stations": 1,
+            "fire_stations": 1
         },
         "alternate_version": null
     }
