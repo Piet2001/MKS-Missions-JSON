@@ -14666,7 +14666,7 @@
         "place_array": [
             "Kerkgebouw"
         ],
-        "average_credits": 8720,
+        "average_credits": 7920,
         "generated_by": "Brandweer, Kazerne",
         "icons": [
             "/images/fire_gruen.png",
@@ -14684,7 +14684,7 @@
             "water_tankers": 2,
             "mobile_air_vehicles": 1,
             "police_cars": 2,
-            "foam": 2
+            "foam": 1
         },
         "chances": {
             "heavy_rescue_vehicles": 20,
